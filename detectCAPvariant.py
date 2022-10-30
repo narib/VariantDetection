@@ -30,6 +30,7 @@ def main(argv):
     print('Bed file is "', bedFile)
     print('Variant file is "', variantFile)
     print('Hello there")
+    print("HEllow World")
 
     timestr = time.strftime("%Y%m%d-%H%M%S")
     Output_Filename = "QuickDetection" + timestr + '.csv'
