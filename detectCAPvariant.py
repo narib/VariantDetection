@@ -1,6 +1,7 @@
 '''
- Given a csv with list of genomic variant coordinate in hg19,
+# Given a csv with list of genomic variant coordinate in hg19,
 # predict if it may be detected by a given panel bed file of Pillar
+# modified on 30 Oct 22
 '''
 
 import pandas as pd
@@ -28,6 +29,7 @@ def main(argv):
 
     print('Bed file is "', bedFile)
     print('Variant file is "', variantFile)
+    print('Hello there")
 
     timestr = time.strftime("%Y%m%d-%H%M%S")
     Output_Filename = "QuickDetection" + timestr + '.csv'
